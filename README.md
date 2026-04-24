@@ -7,7 +7,7 @@
 <br/>
 
 ## 🔗 링크
-- **배포 링크**: [바로가기](https://your-demo-link.com)
+- **배포 링크**: [바로가기](https://wookly44.github.io/Frontend_Dictionary/)
 
 <br/>
 
