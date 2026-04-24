@@ -19,7 +19,7 @@ const initState = {
     {
         id: 3,
         group: 'html',
-        word: '&npsp;',
+        word: '&nbsp;',
         text:'HTML 특수문자로 공백을 표현한다.'
     },
     {
