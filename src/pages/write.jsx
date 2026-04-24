@@ -1,5 +1,4 @@
 import { editContext } from '../App';
-import search from '../assets/search.png';
 import DicInput from '../hook/dicinput';
 import { useContext } from 'react';
 
@@ -18,7 +17,6 @@ const Write = ({setPopup})=>{
             }else{
                 cate = group
             }
-        // console.log(cate)
         createWord(word, text, cate)
         reset()
         setPopup(true)

@@ -4,7 +4,7 @@ import Dicsearch from './dicsearch';
 const header = ()=>{
     return(
         <div className='header'>
-            <a href='#'><img src={img}/></a>
+            <a href='#'><img src={img} alt='logo'/></a>
             <div>
                 <h1>Frontend Developer Word Dictionary</h1>
                 <Dicsearch/>

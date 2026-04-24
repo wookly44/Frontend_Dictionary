@@ -19,10 +19,7 @@ const Dicitem = ({id, word, text, group})=>{
 // 수정    
     function editBtn(){       
         setUpdate(!update)
-        // !updatd : 업데이트값의 반대로 바꾸는게 느낌표
-        // 수정 취소 버튼과 수정이 들어가는 값이 같기 때문에 굳이 두개로 만들 필요 없음. 재사용하자
     }
-    // 수정 value값 바뀌는거
     function editChange(e){
         setEditCont(e.target.value)
     }
@@ -33,7 +30,6 @@ const Dicitem = ({id, word, text, group})=>{
         }
     }
 
-    
     return(
         <>        
             <dl key={id}>
